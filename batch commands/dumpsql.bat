@@ -1,0 +1,1 @@
+mysqldump -h localhost -u root db_gamefinder > ../database/db_gamefinder.sql
