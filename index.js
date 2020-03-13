@@ -93,6 +93,7 @@ app.post('/signup',(req,res)=>{
         let payload = {
             firstname: req.body.firstname,
             lastname: req.body.lastname,
+            contactnum: req.body.contactnum,
             user_id: result.insertId,
             email: req.body.email
         };
